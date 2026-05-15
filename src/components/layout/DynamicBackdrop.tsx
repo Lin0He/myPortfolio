@@ -17,7 +17,7 @@ export function DynamicBackdrop({ activePage }: DynamicBackdropProps) {
             <div className="absolute left-[8%] top-[24%] h-[2px] w-[45%] bg-black/42" />
             <div className="absolute left-[12%] top-[30%] h-[2px] w-[34%] bg-black/32" />
             <div className="absolute bottom-[14%] left-[25%] h-[2px] w-[58%] -rotate-[38deg] bg-black/36" />
-            <div className="absolute right-[10%] top-[34%] h-44 w-44 border-2 border-black/32" />
+            <div className="absolute right-[10%] top-[8%] h-44 w-44 border-2 border-black/32" />
           </>
         );
       case "Projects":
