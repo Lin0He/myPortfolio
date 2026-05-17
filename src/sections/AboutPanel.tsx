@@ -86,8 +86,12 @@ export function AboutPanel({ accent, dark }: AboutPanelProps) {
             </p>
 
             <div className="mt-6 grid items-end gap-5 border-b border-white/20 pb-7 md:grid-cols-[92px_1fr]">
-              <div className="grid h-24 w-24 place-items-center border-2 border-white/25 bg-white/[0.04] text-5xl shadow-[8px_8px_0_rgba(108,43,217,0.38)]">
-                <span aria-hidden="true">🤗</span>
+              <div className="h-40 w-40 overflow-hidden border-2 border-white/25 bg-white/[0.04] shadow-[8px_8px_0_rgba(108,43,217,0.38)]">
+                <img
+                  src={`${import.meta.env.BASE_URL}profile/HeadPhoto.png`}
+                  alt="Portrait"
+                  className="h-full w-full object-cover"
+                />
               </div>
 
               <div className="text-right">
